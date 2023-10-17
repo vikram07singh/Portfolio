@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class=" mt-5 ">
+    <div class="text-center">
+    <img src="{% static 'core/images/dp.jpg' %}" alt='profilepic' 
+    class='img-thumbnail' width="150px" height="50px">
+    </div>
+</div>
+<div class="mt-5 text-white mx-5 text-justify">
+    <h1 class="font-weight-bold st-font">Hello ,</h1>
+    <div class="px-4" style="line-height:2rem;">
+        <p style="text-indent:100px;">I am <b class="text-warning"> 
+            Vikram Singh, </b>
+            a passionate and dedicated computer science enthusiast with a diverse skill set in the world of programming 
+            and web development. As a BTech Computer Science student, I have honed my abilities in various technologies, making me a versatile and valuable asset in the tech industry.
+         </p> 
+         <p> I am driven by a relentless curiosity for technology and a desire to innovate. I thrive on challenges and am always eager to expand my knowledge and skill set. Through a combination of academic coursework and personal projects, I have honed my problem-solving abilities and gained practical experience in applying these skills.
+         </p>  
+    </div>
+    <div class="text-center">
+    <a href="/proj/project" class="btn btn-outline-warning my-3 mx-4 bottom">Hire Me</a>
+    <a href="contact" class="btn btn-outline-info my-4  mx-4">Contact me</a>
+    </div>
+</div>
+{% endblock%}
